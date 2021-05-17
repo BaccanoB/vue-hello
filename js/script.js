@@ -9,11 +9,13 @@ var app = new Vue (
             color:"blueviolet",
             image:"img",
             btnColor:"bg_orange",
-            message:"Raggiungi la Baita Segantini"
+            message:"Raggiungi la Baita Segantini",
+            toggle: true
         },
         methods: {
             changeImg: function () {
-                if (this.image == "img" && this.color == "blueviolet" && this.btnColor == "bg_orange" && this.title == "Benvenuti sul lago di Braies!!"){
+                this.toggle = !this.toggle;
+                if  (this.toggle == true) {
                     this.image = "img_two"
                     this.color = "orange"
                     this.btnColor = "bg_blueviolet"
