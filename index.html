@@ -15,7 +15,7 @@
                 <div id="trasparency">
                     <div>
                         <h1 :class="color">{{ title }}</h1>
-                        <span @click="changeImg">Clicca qui per viaggiare</span>
+                        <span :class="btnColor" @click="changeImg">{{ message }}</span>
                     </div>
                 </div>
             </div>

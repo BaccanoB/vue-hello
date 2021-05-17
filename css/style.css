@@ -10,15 +10,23 @@ body {
 
 h1 {
     font-size: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .blueviolet {
     color: rgb(189, 163, 214);
 }
 
-.blue {
-    color: rgb(73, 73, 214);
+.orange {
+    color: rgb(231, 174, 67);
+}
+
+.bg_orange {
+    background-color: rgb(231, 174, 67);
+}
+
+.bg_blueviolet{
+    background-color: rgb(189, 163, 214);
 }
 
 #trasparency {
@@ -42,7 +50,7 @@ h1 {
 }
 
 .img_two {
-    background-image: url(https://www.ilovevaldinon.it/wp-content/uploads/2020/02/alpe-di-siusi-1.jpg.webp);
+    background-image: url(https://www.babytrekking.it/wp-content/uploads/2015/02/Baita-Segantini.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -50,8 +58,8 @@ h1 {
 span {
     padding: 10px;
     box-shadow: 2px 2px rgba(0,0,0,0.3);
+    font-size: 20px;
     color: white;
-    background-color: blueviolet;
     border-radius: 10px;
 }
 span:hover {
